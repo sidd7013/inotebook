@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const mongoURI ="mongodb://localhost:27017/";
+const mongoURI ="mongodb://localhost:27017/inotebook";
 
 //add "start":"nodemon index.js" in script of package.json after "test" otherise you will get nodeman not regcognised error.
 //now instead of nodemon index.js command you can use npm start command to see mongodb server se connected or not.
